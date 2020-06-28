@@ -1,0 +1,6 @@
+var ele = document.getElementsByTagName('input'); 
+for(i = 0; i < ele.length; i+=4) { 
+	if(ele[i].type="radio") { 
+        ele[i].checked = true;
+    } 
+}
